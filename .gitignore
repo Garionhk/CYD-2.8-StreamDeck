@@ -1,0 +1,35 @@
+# ---------------------------------------------------------------------------
+# CYD Stream Deck
+# ---------------------------------------------------------------------------
+
+# Build output (arduino-cli / Arduino IDE): rebuilt by tools/flash.sh and
+# tools/make_release.sh. The published firmware is in release/.
+build/
+deck/build/
+*.elf
+*.map
+
+# A real SD card config holds your WiFi password: only the example is shared.
+sdcard/config.json
+config.json
+!sdcard/config.example.json
+
+# Case design work is kept locally, outside this repo.
+Case Design/
+
+# OpenSCAD scratch
+*.scad.bak
+*.echo
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# macOS / editors
+.DS_Store
+._*
+.vscode/
+.idea/
+*.swp
+*~

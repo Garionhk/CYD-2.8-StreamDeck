@@ -1,0 +1,22 @@
+{
+  "wifi": {
+    "ssid": "MyWiFi",
+    "password": "my-wifi-password"
+  },
+  "companion": {
+    "host": "192.168.1.50",
+    "port": 16622,
+    "deviceId": "",
+    "name": "CYD Stream Deck"
+  },
+  "web": {
+    "password": ""
+  },
+  "display": {
+    "panel": "ST7789",
+    "invert": true,
+    "rotation": 1,
+    "brightness": 80,
+    "layout": "8x4"
+  }
+}
